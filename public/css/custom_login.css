@@ -1,0 +1,88 @@
+.kt-grid__item {
+  background: white;
+}
+
+.kt-login__wrapper {
+  background-color: #f8f8f8;
+}
+
+.kt-form {
+  border: 2px solid #e6e6e6;
+  border-radius: 2px;
+}
+
+.kt-login__btn-primary {
+  background-color: #4fa74f;
+  border: 2px solid #4ca14c;
+  width: 100%;
+  font-size: 15px;
+  margin: auto;
+  padding: 0;
+}
+
+.kt-login__title {
+  color: black !important;
+  font-size: 25px !important;
+  font-weight: bold !important;
+}
+
+.kt-checkbox {
+  font-size: 14px !important;
+  color: black;
+}
+
+.kt-checkbox > span:after {
+  border: solid #000000;
+}
+
+.kt-checkbox > input:checked ~ span, .kt-checkbox > span {
+  border: 1px solid #000000;
+}
+
+.kt-login__btn-primary:hover, .kt-login__btn-primary:active, .kt-login__btn-primary:focus {
+  background-color: #000000 !important;
+  border: 2px solid #000000 !important;
+}
+
+.kt_form_head {
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 2px solid #e6e6e6;
+}
+
+.kt_form_body {
+  background: white;
+  padding: 0px 20px 20px;
+}
+
+.form-control {
+  border: 2px solid #e6e6e6 !important;
+  border-radius: 4px;
+  background: #ffffff !important;
+  font-size: 15px;
+  width: 100% !important;
+}
+
+span.font-red {
+  color: #f44b4a;
+  margin-top: 3px;
+}
+
+.kt_login_error_message {
+  color: #f44b4a;
+  font-size: 20px;
+  padding-top: 12px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.la-unlock {
+  margin-top: -5px;
+  padding-right: 2px !important;
+}
